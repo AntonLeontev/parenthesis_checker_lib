@@ -1,0 +1,7 @@
+{
+    "name": "leanton/parenthesis_checker_lib",
+    "description": "Checks if given string has all parenthesis closed",
+    "require": {
+        "php": "^7.2",
+    }
+}
