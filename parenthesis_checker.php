@@ -12,7 +12,8 @@ class ParenthesisChecker {
       
       foreach ($arr as $v) {
         if ($v === '(') $this->counter++;
-        if ($v === ')') $this->counter--;        
+        if ($v === ')') $this->counter--;
+        if ($this->counter < 0) return false;        
       }
 
       if ($this->counter == 0) return true; 
