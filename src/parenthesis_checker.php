@@ -1,5 +1,7 @@
 <?php
 
+namespace ParenthesisChecker;
+
 class ParenthesisChecker {
   private $counter;
 

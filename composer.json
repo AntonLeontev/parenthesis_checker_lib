@@ -1,9 +1,12 @@
 {
-    "name": "leanton/parenthesis_checker_lib",
-    "type": "library",
-    "license": "MIT",
-    "description": "Checks if given string has all parenthesis closed",
-    "require": {
-        "php": "^7.2"
-    }
+  "name": "leanton/parenthesis_checker_lib",
+  "type": "library",
+  "license": "MIT",
+  "description": "Checks if given string has all parenthesis closed",
+  "autoload": {
+  "psr-4": {"ParenthesisChecker\\": "src/"}
+  },
+  "require": {
+      "php": "^7.2"
+  }
 }
