@@ -20,7 +20,7 @@ class ParenthesisChecker {
 
       if ($this->counter == 0) return true; 
       else return false;
-    } else throw new InvalidArgumentException(
+    } else throw new \InvalidArgumentException(
       'Argument may contain only "(", ")", " ", "\t", "\r", "\n"');
   }
 }
